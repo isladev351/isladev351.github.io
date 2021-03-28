@@ -1,0 +1,26 @@
+
+.modal-materi{
+    display: block;
+    width: 30%;
+   
+}
+
+
+
+.green{background-color: cadetblue;}
+.modal-video{
+    display: inline;
+
+}
+
+
+.before{
+    display: inline;
+}
+.button-video{
+    display: inline-block;
+}
+
+.button-video button{
+   margin-right: 20px;;
+}

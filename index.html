@@ -1,0 +1,223 @@
+
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <style>
+      
+
+      .navbar{
+        z-index: 9999;
+      }
+        li{
+          list-style-type: none; 
+          padding-left: 20px;  
+          padding-bottom: 5px;     
+        }
+        .section{
+        padding-left: 10px;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+
+        }
+
+        .section span{
+          width: 100%; 
+          display: inline-block;
+         padding: 10px;
+        }
+        li{
+          font-weight: 100;
+        }
+
+        li:active{
+          color: red;
+          font-weight: bold;
+        }
+        
+        li:hover{
+          color: red;
+          font-weight: 300;
+        }
+
+        .content_video{
+          z-index: 2;
+        }
+        .section{
+          width: 100%;
+        }
+        .navigation{
+          font-size: small;
+        }
+
+        
+       .user{
+        width: 40px;
+       }
+
+      
+        
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   
+        <!-- navbar  -->
+        <!-- Just an image -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #305871;">
+          <a class="navbar-brand text-light" href="#" >ToruCourse</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Course
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Web Developers</a>
+                  <a class="dropdown-item" href="#">Web Aplication</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Blog</a>
+              </li>
+            </ul>
+
+            <div class="user-icon my-2 my-lg-0 m-3">
+             <!-- dropdown account -->
+             <div class="btn-group">
+              <button type="button" class="btn  dropdown-toggle text-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="text-light">My Account</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right text-light">
+                <a class="dropdown-item " href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider">sesuatu</div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+              <img src="./img/imageedit_2_2112165634.png" alt="user-icon" class="user">
+            </div>
+          </div>
+        </nav>
+
+
+
+      <div class="content col-md-9 inline-block position-absolute mt-5 pt-3" data-spy="scroll" data-target="#list-example" data-offset="0" style="left: 300px;">
+            <div id="video-player" style="padding-top: 3px;" >
+              <iframe width="100%" height="600px" src="https://www.youtube.com/embed/kY2FEA3y43E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+
+            <div class="materi">
+              <span class="title"><h2>Judul materi</h2></span>
+              <div class="textboxt">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem blanditiis quidem, repellat eum natus accusantium amet, eius maiores temporibus sunt quo similique quae, repellendus perferendis pariatur fugiat in aperiam fugaorem</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officia ipsam non fuga excepturi, quae commodi. Omnis illum totam dicta sequi modi atque, sed nulla hic quibusdam itaque nihil adipisci.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maxime quia ad voluptatum illum placeat, sit rem, voluptatibus quod quasi maiores, similique fuga iure soluta quos ea ex! Facilis, pariatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores omnis molestiae perferendis fuga, sit laborum aliquid, ipsam pariatur quasi quis ab harum unde animi inventore voluptas molestias odit? Blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas harum veritatis non, porro minima eos, rerum ratione expedita, cupiditate eveniet nam sequi unde odit iure repellat quibusdam doloremque labore reiciendis.</p>
+              </div>
+            </div>
+
+           
+      </div>
+
+     <!-- div navigation -->
+      <div class="navigation col-md-5 col-xl-2 border-right bg-light mt-2 fixed-bottom  p-0" style="height: 681px;">
+        <!-- progres -->
+        <div class="progress m-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+         <!-- list item -->
+         <div class="list overflow-auto p-0 border-top position-relative" style=" height: 636px; width: 100%;">
+
+            <div class="section"><span>Materi 1</span>
+              <li type="button" >Perkenalan</li>
+              <li type="button">Build Aplikasi android dan perantara pengembangn</li>
+            </div>
+            <div class="section"><span>Materi 2</span>
+              <li type="button">Perkenalan</li>
+              <li type="button">Build Aplikasi android</li>
+            </div>
+            <div class="section"><span>Materi 3</span>
+              <li type="button">Perkenalan</li>
+              <li type="button">Build Aplikasi android</li>
+            </div>
+            <div class="section"><span>Materi 4</span>
+              <li type="button">Perkenalan</li>
+              <li type="button">Build Aplikasi android</li>
+            </div>
+            <div class="section"><span>Materi 5</span>
+              <li type="button">Perkenalan</li>
+              <li type="button">Build Aplikasi android</li>
+            </div>
+            <div class="section"><span>Materi 6</span>
+              <li type="button">Perkenalan</li>
+              <li type="button">Build Aplikasi android</li>
+            </div>
+           
+         </div>
+      </div>
+
+     
+     
+
+      
+      
+      
+      
+
+
+
+
+
+  
+
+      
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="javascript/function.js"></script>
+    <script src="javascript/script.js"></script>
+        
+  </body>
+</html>
+
+
+
